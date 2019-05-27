@@ -56,10 +56,19 @@ stings, integers, dates
    FROM users; 
    WHERE name = 'DeAndre Data';
 
+   Result:
+    'datad@comcast.net','2008-01-20'
+
    SELECT userid
    FROM users;
    WHERE email = 'aleesia.algorithm@uw.edu';
 
+   Result:
+   1
+
    SELECT *
    FROM users;
    WHERE userid = 4;
+
+   Result:
+   4, 'Brandy Boolean', 'bboolean@nasa.gov', '1999-10-15'
